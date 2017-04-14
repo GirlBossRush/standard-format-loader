@@ -1,0 +1,24 @@
+{
+  "name": "standard-format-loader",
+  "version": "1.0.0",
+  "description": "Formats Webpack output to Standard.js",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TeffenEllis/standard-format-loader.git"
+  },
+  "keywords": [
+    "webpack",
+    "standard"
+  ],
+  "author": "Teffen Ellis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TeffenEllis/standard-format-loader/issues"
+  },
+  "homepage": "https://github.com/TeffenEllis/standard-format-loader#readme",
+  "dependencies": {
+    "loader-utils": "^1.1.0",
+    "standard": "^9.0.1"
+  }
+}
