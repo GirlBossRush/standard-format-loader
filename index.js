@@ -9,9 +9,7 @@ module.exports = function (source, map) {
   const standardOptions = Object.assign({}, options, {fix: true})
 
   standard.lintText(source, standardOptions, (error, response) => {
-    const {messages, output} = response.results[0]
-
-    messages.forEach(message => console.log(message))
+    const {output} = response.results[0]
 
     done(error, output, map)
   })
